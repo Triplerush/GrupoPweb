@@ -10,6 +10,10 @@ class Calculator {
 		int result = a/b;
 		return result;
 	}
-	
+
+	int mod(int a, int b){
+		int result = a%b;
+	    return result;
+	}
 }
 
